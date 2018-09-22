@@ -14,8 +14,8 @@ class Dog
   end
 
   def self.all
-    dog_name = @@all.find_by_name {|dog| dog.name}
-    puts dog_name
+    @@all.each {|dog| puts dog.name}
+
   end
 
 end

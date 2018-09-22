@@ -1,6 +1,6 @@
 class Dog
 
-  attr_attribute :name
+  attr_accessor :name
 
   @@all = []
 
